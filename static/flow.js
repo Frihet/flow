@@ -1,7 +1,14 @@
+/**
+   This will get replaced with a gettext translation call in the future. 
+ */
 function _(str)
 {
     return str;
 }
+/*
+  Todo: There are a bunch of utility functions in the flow namespace
+  that should probably be moved off to some subnamespace...
+ */
 
 var flow = {
   saveQueue:[],
@@ -225,6 +232,10 @@ var flow = {
     },
 
   getProcessControllerList: function(){
+	/*
+	  Random crappy placeholder data. Should really be loaded
+	  dynamically from the server.
+	 */
 	var customer = new flow.controller.Label(_("Customer"), 'customer.name', {groupName:'customer',dialog:flow.dialog.Customer});
 	var project = new flow.controller.Label(
 	    _("Project"), 

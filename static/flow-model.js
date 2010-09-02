@@ -3,7 +3,7 @@
    define event handlers that should be run when a model field changes
    value. 
 
-   Before using a model field, you must decalre it using the
+   Before using a model field, you must decalare it using the
    declare method. You will usually simple write something like
    this.declare('name') in the Model constructor to do so.
 

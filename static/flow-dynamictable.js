@@ -1,3 +1,10 @@
+/*
+  FIXME: The code for drag and drop row reordering is not 100 % tested
+  yet. There where strange issues with rows getting stuck which
+  resulted in me having to add an empty first/last row to work around
+  this. Needs more testing.
+ */
+
 flow.DynamicTable = function(controllerList, modelList, parent, dialogParent, param){
     var that = this;
     that.refocsing = false;

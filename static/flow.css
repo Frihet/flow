@@ -133,6 +133,10 @@ body #table_area th span
 
 body #table_area th.expandable .vertical_text
 {
+    /* The slightly retarded margin and padding are here to work around
+      the fact that neither WebKit nor Firefox seems able to sanely
+      calculate the size of rotated elements. There is probably a
+      better way to do this, but I don't know it.  */
     -webkit-transform: rotate(-90deg); 
     -moz-transform: rotate(-90deg);
     filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);

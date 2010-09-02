@@ -1,3 +1,9 @@
+/**
+   This code is for setting up something that is essentially a
+   modeless dialog on the top half of the screen. These dialogs are
+   created in response to focus changes in the grid on the lower half
+   of the screen.
+ */
 
 flow.dialog = 
 {

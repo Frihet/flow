@@ -1,4 +1,6 @@
-
+/*
+  Just create a crapload of fake data. Placeholder until we have RedMine integration.
+ */
 flow.personMap = {
     0: new flow.model.Person({firstName:'Ove',lastName:'Johansson',id:0,email:'root@nasa.gov',mobile:'621 22 243', telephone: '12 23 34 45'}),
     1: new flow.model.Person({firstName:'Torgny',lastName:'Green',id:1,email:'root@torgny.gov',mobile:'92 13 12 23', telephone: '12 23 34 45'}),

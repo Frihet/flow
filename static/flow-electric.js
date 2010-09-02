@@ -1,3 +1,7 @@
+/**
+  This is a collection of dom elements that can be made to trach the value of a model field, so that when the model changes, the dom node (e.g. input field) changes with it. 
+ */
+
 flow.electric = {
     anonymousId:0,
   electricInput: function(model, name, type)

@@ -1,3 +1,11 @@
+/**
+   Controller objects. These controllers work more like e.g. Java
+   Swing controllers do, they not only control flow of events, they
+   also take on responsibility for creating DOM elements, something
+   that the view would do in a web framework.
+
+ */
+
 flow.controller = {};
 
 flow.controller.Controller= function(label, param){

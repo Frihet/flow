@@ -1,3 +1,6 @@
+/*
+  A few extra utility functions for dom manipulation
+ */
 flow.dom = {
      isVisible: function(obj)
      {
