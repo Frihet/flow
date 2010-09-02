@@ -1,0 +1,321 @@
+body
+{
+    background-color: #ccc;
+}
+
+#dialog_area
+{
+    height: 12em;
+}
+
+#table_area td
+{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #99f;
+    cursor: default;
+}
+
+#table_area th
+{
+    margin: 0pt;
+    padding: 0px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #99f;
+}
+
+#table_area th span
+{
+    cursor: default;
+    display:block;
+}
+
+#table_area th
+{
+    vertical-align: top;
+    white-space: nowrap;
+}
+.dynamic_table td.selected
+{
+    background-color:#eee;
+    outline: 3px solid #555;
+}
+
+#table_area th button
+{
+   -moz-border-radius-topright: 4px;
+   -moz-border-radius-bottomright: 4px;
+    -webkit-border-top-right-radius: 4px;
+    -webkit-border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: white;
+    font-weight: bold;
+    width: 2em;
+    margin: 0px;
+    border:none;
+    
+}
+
+#table_area th.vertical_cell button
+{
+   -moz-border-radius-topleft: 4px;
+   -moz-border-radius-bottomright: 0px;
+    -webkit-border-top-left-radius: 4px;
+    -webkit-border-bottom-right-radius: 0px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 0px;
+   width: 100%;
+}
+
+body
+{
+    font-family: sans-serif;
+    font-size: 10pt;
+}
+
+#dialog_area input
+{
+    border: 1px solid #aaa;
+}
+
+#dialog_area input:focus
+{
+    background-color:#eee;
+    outline: 3px solid #555;
+}
+
+.dialog_column
+{
+    vertical-align: top;
+    display: inline-block;
+}
+
+.address_input
+{
+    width:10em;
+}
+
+div.address_input ,
+div.name_input 
+{
+    width:10em;
+    margin:0pt;
+    padding:0pt;
+}
+
+.address_input.postal_code,
+.name_input.first_name
+{
+    width:32%;
+    float:left;
+}
+
+.address_input.region,
+.name_input.last_name
+{
+    width:64%;
+    float:right;
+}
+
+body #table_area th.expandable span
+{
+    padding-right: 2.5em;
+}
+
+body #table_area th span
+{
+    padding-left: 5pt;
+    padding-right: 5pt;
+}
+
+body #table_area th.expandable .vertical_text
+{
+    -webkit-transform: rotate(-90deg); 
+    -moz-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    margin-top: 3em;
+    padding: 5pt;
+}
+
+th
+{
+    color: white;
+    background-color: #444;
+}
+
+td
+{
+    background-color: #fff;
+}
+
+#table_area th.customer 
+{
+    background-color: #700;
+}
+
+#table_area th.customer button
+{
+    background-color: #a00;
+}
+
+#table_area th.customer button:hover
+{
+    background-color: #c00;
+}
+
+#table_area th.project 
+{
+    background-color: #550;
+}
+
+#table_area th.project button
+{
+    background-color: #770;
+}
+
+#table_area th.project button:hover
+{
+    background-color: #880;
+}
+
+#table_area th.project_contact 
+{
+    background-color: #070;
+}
+
+#table_area th.project_contact button
+{
+    background-color: #0a0;
+}
+
+#table_area th.project_contact button:hover
+{
+    background-color: #0b0;
+}
+
+#table_area th.div2 
+{
+    background-color: #055;
+}
+
+#table_area th.div2 button
+{
+    background-color: #077;
+}
+
+#table_area th.div2 button:hover
+{
+    background-color: #099;
+}
+
+
+#table_area th.div4 
+{
+    background-color: #007;
+}
+
+#table_area th.div4 button
+{
+    background-color: #00e;
+}
+
+#table_area th.div4 button:hover
+{
+    background-color: #33f;
+}
+
+#table_area th.div5 
+{
+    background-color: #505;
+}
+
+#table_area th.div5 button
+{
+    background-color: #808;
+}
+
+#table_area th.div5 button:hover
+{
+    background-color: #a0a;
+}
+
+#table_area .customer_hidden
+{
+    display: none;
+}
+
+#table_area .project_hidden
+{
+    display: none;
+}
+
+#table_area .project_contact_hidden
+{
+    display: none;
+}
+
+#table_area .div2_hidden
+{
+    display: none;
+}
+
+#table_area .div4_hidden
+{
+    display: none;
+}
+
+#table_area .div5_hidden
+{
+    display: none;
+}
+
+.dynamic_table_label
+{
+    border: none;
+    padding:0pt;
+    margin:0pt;
+    width:100%;
+}
+
+.expander_button
+{
+    display:block;
+    float:right;
+}
+
+img.icon
+{
+    vertical-align: bottom;
+    border: 0;
+}
+
+div.url
+{
+    float:left;
+}
+
+.numeric
+{
+    text-align: right;
+}
+
+.dynamic_table tr
+{
+    height: 1em;
+}
+
+.dynamic_table
+{
+    overflow-y: scroll;
+    overflow-x: visible;
+    padding: 4px;
+}
+
+#dialog_area .dynamic_table
+{
+    height: 11em;
+}
+

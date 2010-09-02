@@ -1,0 +1,33 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link rel="stylesheet" type="text/css" media="screen,projection" href="static/flow.css"/>
+    <script type="text/javascript" src="static/json2.js"></script>
+    <script type="text/javascript" src="static/jquery.js"></script>
+    <script type="text/javascript" src="static/jquery.tablednd.js"></script>
+    <script type="text/javascript" src="static/flow.js"></script>
+    <script type="text/javascript" src="static/flow-controller.js"></script>
+    <script type="text/javascript" src="static/flow-electric.js"></script>
+    <script type="text/javascript" src="static/flow-dialog.js"></script>
+    <script type="text/javascript" src="static/flow-dom.js"></script>
+    <script type="text/javascript" src="static/flow-dynamictable.js"></script>
+    <script type="text/javascript" src="static/flow-model.js"></script>
+    <script type="text/javascript" src="static/fakeData.js"></script>
+<!--    <script type="text/javascript" src="static/flow.js.php"></script> -->
+<title>FreeFlow</title>
+  </head>
+  <body>
+    <div id='dialog_area'></div>
+    <div id='table_area'></div>
+    <script type="text/javascript">
+      var dynamicTable = new flow.DynamicTable(
+      flow.getProcessControllerList(), 
+      flow.getProjectList(),
+      $('#table_area')[0],
+      $('#dialog_area')[0],
+      {id:"main_content_table", stealKeyboard:true});
+      dynamicTable.setSelected(flow.state.get("main_content_table.selected",[0,0]));
+    </script>
+  </body>
+</html>
